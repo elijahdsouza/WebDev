@@ -1,0 +1,547 @@
+body {
+    padding: 0;
+    margin: auto;
+    width: 100%;
+    background-color: #2C4B70;
+    color: #000000;
+    font: normal 12px/1em Arial, Helvetica, sans-serif;
+}
+html,.main {
+    padding: 0 auto;
+    margin: 0;
+}
+.clr {
+    clear: both;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 0px;
+    line-height: 0px;
+}
+.logo {
+
+    float: left;
+    width: 30%;
+}
+
+
+.DocContent h2, h3, h4, p, a{
+    color: white;
+    
+}
+.DocContent {
+  border: 2px solid #FF0;
+  padding-bottom: 690px;
+}
+h1 a,
+h1 a:hover {
+    color: #e1e9df;
+    text-decoration: none;
+}
+h1 span {
+    color: #d76002;
+}
+h1 small {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+h2 {
+    font: bold 24px Arial, Helvetica, sans-serif;
+    margin: 8px 0;
+    color: #12114A;
+}
+
+p.spec {
+    text-align: center;
+}
+
+a.rm,
+a.com {
+    padding: 0;
+    text-decoration: none;
+    color: #fff;
+    width: 150px;
+    display: inline-block;
+}
+.header,.content,.menu_nav,
+.panel,.footer,
+form,ol,ol li,ul,
+.content .mainbar,
+.content {
+    margin: 0;
+    padding: 0;
+}
+
+.heading2 
+.BigBtn {
+    margin-top: 30px;
+    float: left;
+    width: 200px;
+}
+.col .c3 span{
+    font-size: 20px;
+}
+a.headerButton {
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  border: 1px solid #773B04;
+  border-radius: 5px;
+
+  padding: 12px 0px;
+  font-size: 20px;
+}
+
+.headerButton {
+  background: #FF7A00;
+  min-width: 150px;
+  text-align: center;
+  float: right;
+  display: inline-block;
+}
+p.headerText{
+    font-size: 26px;
+}
+.headerText {
+  padding-left: 40px;
+  font-size: 24px;
+  float: left;
+  color: #EAEAEA;
+  font-weight: bold;
+  width: 600px
+}
+span.headerText {
+  font-size: 38px;
+}
+
+/* header */
+.header {
+    background: #1B4066;
+    color: white;
+}
+.headerContainer {
+    margin: 0 auto;
+    width: 1170px;
+    height: 99px;
+}
+/* hbg */
+.hbg {
+    padding: 83px 0px;
+}
+
+.hbg p { 
+    font-size: 17px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+/* menu */
+.menu_nav {
+    float: right;
+    width: 69%;
+}
+.menu_nav ul {
+    list-style: none;
+    float: right;
+    margin: 33px 0;
+}
+.menu_nav ul li {
+    margin: 0;
+    float: left;
+    width: 112px;
+    text-align: center;
+}
+.menu_nav ul li a {
+    display: block;
+    margin: 0;
+    padding: 12px 13px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 800;
+}
+.menu_nav ul li.active a, .menu_nav ul li a:hover {
+    color: #0630B8; 
+    background-color: #3989DB;
+}
+.doc {
+    position: relative;
+    top: 0;  
+    left: 464px;
+    top: -29px;
+    width: 147px; 
+    padding: 10px;
+    margin-top: 10px;
+    float: right;
+    font-weight: 200;
+}
+.doc  h3 a{
+    color: white;
+    padding-left: 10px;
+}
+/* content */
+.content {
+
+    background-image: url('./images/Footbal-pitch.jpg');
+    background-repeat: no-repeat;
+    margin: auto;
+    background-position-x: -510px;
+    background-position-y: -377px;
+}
+.dropdown {
+    text-align: center;
+    padding: 10px 0;
+    float: left;
+    padding-left: 120px;
+    padding-bottom: 20px;
+}
+.Standingshbg {
+  width: 800px;
+  padding-top: 26px;
+  clear: both;
+}
+.Standingshbg p{
+  font-size: 27px;
+  font-weight: bold;
+  color: #1C1C1D;
+}
+
+.Container, .page2-container, .ContainerLegends, .DocContainer {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.Container{
+    height: 572px;
+}
+.ContainerLegends {
+    height: 812px;   
+}
+.DocContainer {
+    height: 1528px;   
+}
+
+
+.spec a {
+    background: #00C78B;
+    font-size: 13px;
+    /* width: 100%; */
+    padding: 10px;
+    font-weight: 700;
+    border: 2px solid #294F0D;
+    border-radius: 5px;
+}
+.submit {
+    margin-top: 60px;
+
+    padding: 20px 0;
+}
+.join {
+    margin: 0px 0;
+    padding: 20px 0;
+}
+.dropdown a{
+    padding: 6px 21px;
+    margin-left: 5px;
+    background: #D76002;
+    border: 2px solid #D76002;
+    border-radius: 3px;
+}
+.dropdown p {
+  display: inline;
+  color: #F8F8F8;
+  font-weight: bolder;
+  font-size: 19px;
+  margin-top: 10px;
+  padding-top: 34px;
+}
+.DisplayStandings {
+  margin-bottom: 0px;
+  padding-bottom: 125px;
+}
+
+select {
+    padding: 1px 42px;
+    margin: 7px 5px 2px 10px;
+}
+table {
+    width:75%;
+    margin: auto;
+    margin-bottom: 40px;            
+    margin-top: 10px;
+    padding-top: 25px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+table tr:nth-child(odd) {
+   background-color:#fff;
+}
+table th    {
+    background-color: #164299;
+    color: white;
+}
+/* panel */
+.panel {
+    background-color: #349CD4;
+}
+.panelContainer {
+}
+.panel img {
+    padding: 4px;
+    border: 1px solid #cfd2d4;
+    background-color: #fff;
+}
+
+.panelContainer {
+    margin: 0 auto;
+    width: 1170px;
+    /* min-height: 491px; */
+    /* background-color: #00AB6F; */
+    padding: 20px;
+}
+
+.panel .c3 h2 {
+    margin: 0 0;
+    padding: 2px 4px;
+
+    font-size: 25px;
+    color: #FF8700;
+    text-align: center;
+}
+
+.panel .panelContainer .heading2 h2{
+    font-size: 36px;
+    color: #333;
+}
+.panel .col {
+    margin: 0;
+    float: left;
+}
+.panel .c1 {
+    
+    width: 266px;
+}
+.panel .c2 {
+    padding: 0 16px;
+    width: 158px;
+}
+.panel .c3 {
+    padding: 10px;
+    width: 190px;
+    border: 1px solid;
+    margin: 15px 10px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.panel .c1 img {
+    margin: 8px;
+}
+.panel .c3 img {
+    margin: 8px 16px 4px 0;
+    float: left;
+}
+
+/* footer */
+.footer {
+    background-color: #1B4066;
+}
+.footer_resize {
+    margin: 0 auto;
+    padding: 8px 40px;
+    width: 1170px;
+}
+.footer .lf {
+    float: left;
+}
+ 
+.footer #p2 span  a {
+    color: white;
+    text-decoration: none;
+}
+.footer #p2 a {
+    padding-left: 10px;
+    color: #D76002;
+
+}
+.footer .lf span {
+    padding-left: 10px;
+}
+.footer .rf {
+    float: right;
+}
+.footer p, .footer #p2 p {
+    margin: 0;
+    padding: 4px 0;
+    width: auto;
+    line-height: 1.5em;
+    color: #959595;
+}
+.footer p a {
+    color: #d76002;
+    padding-left: 5px;
+}
+/* form */
+ol {
+    list-style: none;
+}
+ol li {
+    display: block;
+    clear: both;
+}
+
+.banner {
+  border: 1px solid #948F8F;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: rgba(41, 44, 35, 0.83);
+  border-radius: 10px;
+}
+.page-content {
+  border: 1px solid #948F8F;
+  padding: 0;
+  background-color: rgba(41, 44, 35, 0.83);
+  border-radius: 10px;
+}
+
+div#banner-1 {
+    width: 55%;
+    float: left;
+}
+div#banner-2 {
+    
+    margin-left: 65%;            
+    padding: 28px 38px;
+}
+
+.banner h3 {
+  color: #00A2E9;
+  font-size: 34px;
+  font-weight: 700;
+  margin: 30px 0 24px 0px;
+}
+
+.league-icon {
+  height: 200px;
+  width: 183px;
+  display: block;
+  background-repeat: no-repeat;
+  margin: 1px 0px;
+  background-color: white;
+}
+
+.senior-icon {
+  background-image: url('images/seniors.png');
+  background-size: 135px;
+  background-position-x: 27px;
+  background-position-y: 8px;
+}
+
+.children-icon{
+  background-image: url('images/children.png');
+  background-size: 107px;
+  background-position-x: 40px;
+  background-position-y: 36px;
+}
+
+
+.casual-icon {
+  background-image: url('images/Beginner-100.png');
+  background-size: 103px;
+  background-position-x: 40px;
+  background-position-y: 39px;
+}
+
+.serious-icon {
+  background-image: url('images/SportsMode-100.png');
+  background-size: 103px;
+  background-position-x: 40px;
+  background-position-y: 38px;
+}
+
+.legends-icon {
+  background-image: url('images/ThorHammer-100.png');
+  background-size: 103px;
+  background-position-x: 46px;
+  background-position-y: 38px;
+}
+
+#leagues-container p {
+  width: 150px;
+}
+
+.menu_nav ul li:last {
+  border-right: 1px solid red;
+}
+
+.heading2{
+  color: #FFF;
+  padding: 10px;
+}
+
+.logo h1, .logo a {
+  font-size: 56px;
+  color: white;
+  text-decoration: none;
+  padding-top: 0px;
+  margin-top: 30px;
+  margin-bottom: 28px;
+}
+
+.logo p {
+  font-size: 20px;
+}
+
+.panelContainer p {
+  font-size: 13px;
+  width: 180px;
+  line-height: normal;
+  padding: 4px;
+  text-align: center;
+  /* border-radius: 30px; */
+}
+.LeagueHeading {
+    text-align: left;
+    /* display: inline-block; */
+    margin: 24px -76px auto;
+}
+
+.SelectDivision {
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 24px;
+}
+
+
+.LeagueHeading h2 {
+font-size: 40px;
+color: #00A2E9;
+padding: o o o o;
+}
+
+.LeagueHeading h3 {
+font-size: 20px;
+color: #00A2E9;
+margin: 0 auto;
+padding-top: 10px;
+}
+
+.heading2 h1 {
+  color: #FFFFFF;
+  font-size: 40px;
+  text-align: center;
+}
+
+.border-right {
+  border-right: 1px solid white;
+}
