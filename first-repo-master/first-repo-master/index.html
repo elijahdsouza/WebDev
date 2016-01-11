@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>The HTML5 Herald</title>
+		<meta name="description" content="Todo Web app ">
+		<meta name="Eijah" content="SitePoint">
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="styles/style.css">
+	</head>
+	<body>
+		<h1>Todos</h1>
+		<div class="container">
+			<div>
+				<input id="checkAll" type="checkbox">
+				<input type="text" id="new-todo" placeholder="What needs to be done?"/>	
+			</div>
+			<ul id="todo-list">
+				<!--  -->
+			</ul>
+			<div>	
+				<div id="count"> </div>
+				<div id="completedTasks"> </div>
+				<div id="itemsleft"> </div>
+			</div>
+			<br>
+		<div class="clear">
+			<button id="clear-completed">Clear completed</button>
+			</div>
+			<div class="divfilters">
+				<ul class="fliters">
+					<li>
+						<a id="all"  href="#">All</a>
+					</li>
+					<li>
+						<a id="active" href="#">Active</a>
+					</li>
+					<li>
+						<a id="completed" href="#">Completed</a>
+					</li>
+			
+				</ul>
+				
+			</div>		
+			
+			
+		</div>
+		<script src="bower_components/jquery/dist/jquery.min.js">
+		</script>
+		<script src="scripts/app.js"></script>
+		<footer>Elijah @ 2015</footer>
+	</body>
+</html>

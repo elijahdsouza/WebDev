@@ -1,0 +1,200 @@
+ #todo-list  {
+	padding-left: 0;
+
+}
+
+#todo-list li {
+	 border-bottom: 1px solid #E8E8E8; 
+	 padding: 7px 8px 18px 17px;
+	list-style: none;
+	 font-family: sans-serif;
+}
+
+.container {
+	margin: auto;
+	width: 700px;
+	border: 1px solid #EDEDED;
+	background-color: white;
+	-webkit-box-shadow: 0px 9px 85px -19px rgba(0,0,0,0.75); 
+	-moz-box-shadow: 0px 9px 85px -19px rgba(0,0,0,0.75); 
+	box-shadow: 0px 9px 85px -19px rgba(0,0,0,0.75);
+	border-radius: 6px;
+	margin-top: 50px;
+	padding: 20px;
+}
+input[type="text"] {
+	width: 94%;
+	padding: 10px ;
+	padding-left: 10px;
+	margin-left: 8px;
+	font-size: 16px;
+	margin-bottom: 20px;
+	font-style: italic;
+	border: none;
+	display: inline-block;
+}
+input[type=checkbox], input[type=radio] {
+	  margin: 2px 6px 0 0;
+ 	 margin-top: 1px\9;
+  	line-height: inherit;
+}
+input#toggle-all {
+	  margin-left: 8px;
+	  clear: both;
+}
+button#clear-completed {
+  float: right;
+  display: inline-block;
+
+    clear: both;
+}
+
+body {
+	background-color: #F5F5F5;
+	  line-height: 1.4em;
+}
+
+#todo-list li button {
+	float: right;
+}
+
+footer {
+	margin: 20px;
+	text-align: center;
+	color: #ccc;
+}
+
+.strike {
+	text-decoration: line-through;
+}
+div #count{
+	float: left;
+	display: inline-block;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+div #itemsleft,  div #completedTasks{
+	float: right;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.btn {
+  border-radius: 16px;
+ 
+  font-family: Arial;
+ color: rgba(204, 0, 133, 0.4);
+      font-weight: bold;
+  font-size: 13px;
+  background: #FFF;
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  border-radius: 16px;
+  background: #ECEDED;
+  text-shadow: 2px 1px 6px #c9c9c9;
+
+  font-family: Arial;
+  color: #cc0085;
+  text-decoration: none;
+  transition : color .5s ease-out, background .5s ease-in;
+
+}
+.regular-checkbox:checked + label:after {
+  content: '\2714';
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  color: #99A1A7;
+}
+
+
+.regular-checkbox:checked + label {
+  background-color: #E9ECEE;
+  border: 1px solid #ADB8C0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+  color: #99A1A7;
+}
+
+/*ul.filters  li a {
+  list-style-type: none;
+  display: inline ;
+  margin: 0;
+  /* padding: 3px 7px; 
+  text-decoration: none;	
+  -----display: block;
+    width: 89px;
+    background-color: #dddddd;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin:  0 2px
+} */
+
+ul.fliters li  {
+	list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #dddddd;
+	/* overflow: hidden; */
+    
+	text-decoration: none;
+      
+	display: inline-block; ;
+      /*float: left;*/
+}
+
+ul.fliters li a  {
+ list-style: none;
+  color: inherit;
+  margin: 3px;
+  padding: 3px 7px;
+  text-decoration: none;
+  border: 1px solid rgba(195, 16, 16, 0);
+  border-radius: 3px;
+  display: block;
+}
+.filters  ul li {
+ 	 float: left;
+ }
+
+
+a:hover, a.active  {
+	background-color: #999;
+}
+div.divfilters ul {
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+
+div.divfilters {
+  text-align: center;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+
+#filters  ul li a {
+  list-style: none;
+  color: inherit;
+  margin: 3px;
+  padding: 3px 7px;
+  text-decoration: none;
+  border: 1px solid rgba(195, 16, 16, 0);
+  border-radius: 3px;
+  display: inline-block;
+}
+
+
+#filters li a.selected {
+  border-color: rgba(175, 47, 47, 0.2);
+}*/
+
